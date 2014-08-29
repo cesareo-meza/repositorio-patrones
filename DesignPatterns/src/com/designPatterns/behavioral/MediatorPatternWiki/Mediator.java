@@ -12,7 +12,7 @@ public class Mediator implements IMediator
 		btnBook.setEnabled(false);
 		btnView.setEnabled(true);
 		btnSearch.setEnabled(true);
-		lblDisplay.setText("booking...");
+		lblDisplay.setText("Booking...");
 	}
 
 	@Override
@@ -20,7 +20,7 @@ public class Mediator implements IMediator
 		btnBook.setEnabled(true);
 		btnView.setEnabled(false);
 		btnSearch.setEnabled(true);
-		lblDisplay.setText("viewing...");
+		lblDisplay.setText("Viewing...");
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class Mediator implements IMediator
 		btnBook.setEnabled(true);
 		btnView.setEnabled(true);
 		btnSearch.setEnabled(false);
-		lblDisplay.setText("searching...");
+		lblDisplay.setText("Searching...");
 	}
 
 	@Override
